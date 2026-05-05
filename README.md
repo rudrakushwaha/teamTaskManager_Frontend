@@ -1,16 +1,78 @@
-# React + Vite
+# Team Task Manager (Frontend)
+## The APP is LIVE at: https://imaginative-unicorn-46f85b.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+This is the frontend of the Team Task Manager application, built using React. It allows users to manage projects, assign tasks, and track progress with role-based access.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔐 User Authentication (Login/Signup)
+* 👥 Role-Based UI (Admin / Member)
+* 📊 Dashboard displaying tasks
+* 📝 Task creation and assignment (Admin only)
+* 🔄 Task status updates (Todo, In Progress, Done)
+* ⏰ Overdue task highlighting
+* 📁 Project creation and team management
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+* React (Vite)
+* Tailwind CSS
+* Axios
+
+---
+
+## 🌐 Live Demo
+
+Frontend: https://imaginative-unicorn-46f85b.netlify.app/
+Backend: https://teamtaskmanagerbackend-production-8fbf.up.railway.app
+
+---
+
+## 🔗 Backend Repository
+
+https://github.com/rudrakushwaha/teamTaskManager_Backend
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+git clone https://github.com/rudrakushwaha/teamTaskManager_Frontend
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file:
+
+```env
+VITE_API_URL=https://teamtaskmanagerbackend-production-8fbf.up.railway.app
+```
+
+---
+
+## 🎯 Usage
+
+* Admin can:
+
+  * Create projects
+  * Assign tasks to users
+
+* Members can:
+
+  * View assigned tasks
+  * Update task status
+
+* Overdue tasks are automatically highlighted
+
+
